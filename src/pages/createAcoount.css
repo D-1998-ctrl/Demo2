@@ -1,0 +1,424 @@
+.account-container {
+  position: fixed;
+  top: 0;
+  right: -66.66%;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  transition: right 0.5s ease-in-out;
+  z-index: 100;
+}
+
+.account-open {
+  right: 0;
+}
+
+/* css for header  */
+
+.account-header {
+  /* display: flex; */
+  padding: 10px;
+  /* justify-content: space-between; */
+  background: rgb(243, 243, 243);
+  position: relative;
+}
+
+.header-button {
+  position: absolute;
+  /* top: 60%; */
+  transform: translateY(-40%);
+  right: 0;
+}
+
+.account-header .account_title {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+  width: 85%;
+  float: left;
+  cursor: pointer;
+}
+
+.account-header .header-button {
+  background: none;
+  color: rgb(58, 145, 245);
+  border: none;
+  width: 15%;
+  float: left;
+  cursor: pointer;
+}
+
+.account_type {
+  height: auto;
+  flex-direction: row;
+}
+
+.accounttype_container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.account-header.sub-account {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-between;
+  height: 30%;
+}
+
+.account_info {
+  flex-direction: column;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.account_info input[type="radio"] {
+  cursor: pointer;
+}
+
+.rotate-btn {
+  border: none;
+  background: none;
+  color: rgb(121, 116, 116);
+  cursor: pointer;
+  padding-top: 5%;
+}
+
+.company_info {
+  flex-direction: column;
+  display: flex;
+  gap: 2px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.dynamicContact input {
+  width: 100%;
+  padding: 6px 20px;
+  margin: 4px 0;
+
+  background-color: white;
+  /* #e3edf7;*/
+  box-sizing: border-box;
+  border: 2px solid #9195f6;
+  border-radius: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 6px 20px;
+  margin: 4px 0;
+  font-size: medium;
+  background-color: white;
+  /* #e3edf7;*/
+  box-sizing: border-box;
+  /* border: 2px solid #9195f6; */
+  border: "1px solid grey;";
+  border-radius: 4px;
+}
+
+
+.company_info input[type="radio"] {
+  cursor: pointer;
+}
+
+/* //todo css for create account  */
+boby {
+  min-height: 120vh;
+  background-color: rgb(171, 171, 190);
+}
+
+.contactform_container {
+  box-shadow: 5px 5px 5px rgb(184, 185, 185);
+  height: auto;
+  flex-direction: column;
+}
+
+.contactform_container .conatct-header {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  background: rgb(243, 243, 243);
+  color: rgb(126, 125, 125);
+}
+
+.conatct-header.conatct_title {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+  width: 85%;
+  float: left;
+  cursor: pointer;
+}
+
+.conatct-header .cheader-button {
+  background: none;
+  color: rgb(58, 145, 245);
+  border: none;
+  width: 15%;
+  float: left;
+  cursor: pointer;
+}
+
+.account_type {
+  height: auto;
+  flex-direction: row;
+}
+
+.contacttype_container {
+  display: flex;
+  justify-content: center;
+  color: rgb(92, 92, 92);
+}
+
+.csub-account {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-between;
+  height: 30%;
+  color: rgb(92, 92, 92);
+}
+
+.contact_info {
+  flex-direction: column;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.contact_info input[type="radio"] {
+  cursor: pointer;
+}
+
+.contactrotate-btn {
+  border: none;
+  background: none;
+  color: rgb(121, 116, 116);
+  cursor: pointer;
+  padding-top: 5%;
+}
+
+.middle-section-container {
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  /* background-color: rgb(171, 171, 190); */
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 20%;
+  margin-right: 20%; */
+  padding-top: 30%;
+}
+
+.csub-account-last {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-between;
+  height: 30%;
+  color: rgb(92, 92, 92);
+}
+
+/* //todo individual tax */
+.individual {
+  padding: 10px;
+}
+
+.individual .input {
+  width: 100%;
+  padding: 6px 20px;
+  margin: 4px 0;
+  height: 40px;
+
+  background-color: white;
+  /* #e3edf7;*/
+  box-sizing: border-box;
+  border: 2px solid #9195f6;
+  border-radius: 10px;
+}
+
+.individual .label {
+  color: rgb(33, 31, 31);
+  font-size: 15px;
+}
+
+.label {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+
+
+/* .individual .submit-btn {
+  padding: 8px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background: #007bff;
+  width: 20%;
+} */
+
+/* //todo client type  */
+.clienttype_container {
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  padding-left: 10px;
+}
+
+.account_subtype {
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+/* .phone-input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-left: 35px;
+  position: relative;
+} */
+
+.account-item .remove-button-phone {
+  position: absolute;
+  right: 30px;
+  height: 35px;
+  transform: translateY(-100%);
+  color: red;
+  background: none;
+}
+
+.col-4 input {
+  border-color: rgb(146, 144, 144);
+  border-width: 1px;
+}
+
+/*  */
+.individual-account-name input {
+  border: 1px solid #ccc;
+}
+
+.individual-tam-member input {
+  border: 1px solid #ccc;
+}
+
+.individual-btn .submit-btn {
+  width: 25%
+}
+
+.company-accountname input {
+  border: 1px solid #ccc;
+}
+
+.company-Cname input {
+  border: 1px solid #ccc;
+}
+
+.company-street-add input {
+  border: 1px solid #ccc;
+}
+
+.company-state input {
+  border: 1px solid #ccc;
+}
+
+
+.company-zip input {
+  border: 1px solid #ccc;
+}
+
+
+
+.company-btn .submit-btn {
+  width: 25%;
+}
+
+.contacts-fname input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.contacts-mname input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.contacts-lname input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.contacts-cname input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.contacts-company-name input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.contacts-note input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.contacts-ssn input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.contacts-email input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+}
+.contacts-country input{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+}
+.contacts-street input{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+}
+.contacts-city input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+}
+.contacts-state input{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+}
+.contacts-zip input{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+}
+.contacts-btn .submit-btn{
+  width: 25%;
+}
+
+

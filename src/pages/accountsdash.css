@@ -1,0 +1,75 @@
+.follow-accounts {
+  position: fixed;
+  top: 0;
+  right: -400px; 
+  width: 400px;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  transition: right 0.5s ease-in-out;
+  padding: 20px;
+}
+
+.form-open {
+  right: 0;
+}
+
+.follow-accounts .header {
+  display: flex;
+  flex: 0;
+  align-items: center;
+  padding: 16px 24px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  border-bottom: 1px solid rgba(5, 5, 5, 0.06);
+}
+.follow-accounts .header_title {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  margin: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.navigation a:hover{
+  font-weight: 650;
+}
+.navigation a.active {
+  border-bottom: 2px solid black;
+  font-weight: 650;
+}
+.invoices-nav a.active,.workflow-nav a.active,.email-nav a.active,.Docs-nav a.active{
+  border-bottom: 2px solid black;
+  font-weight: 650;
+}
+.workflow-nav a,.invoices-nav a,.email-nav a, .Docs-nav a{
+  text-decoration: none;
+  color: black;
+}
+
+.accountsdash-container {
+    height: 92vh; 
+    overflow: auto;
+  }
+  
+  .accountsdash-container::-webkit-scrollbar {
+    display: none;
+  }

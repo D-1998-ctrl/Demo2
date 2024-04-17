@@ -1,0 +1,9 @@
+export default function SuperAdminLogin({ toggleLogin, handleSignupPage }) {
+
+
+     <p className="sign-in-link" style={{ marginBottom: "15px" }}>
+              Don't have a PMS solutions client portal Account ?
+              <button style={{ background: "none" ,color:"black"}} onClick={handleSignupPage}>
+                Signup
+              </button>
+            </p>

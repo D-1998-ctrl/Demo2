@@ -1,0 +1,100 @@
+.add-jobs-form-area{
+    display: flex;
+  }
+  
+  
+  .add-jobs-create-form {
+    margin: 10px;
+  }
+  
+  .job-input {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 100%;
+    transition: border-color 0.3s; /* Add transition for smoother effect */
+  }
+  .date-input{
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 10px;
+    transition: border-color 0.3s;
+  }
+  .day-input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    /* width: 100%; */
+    transition: border-color 0.3s;
+  }
+  
+  .job-input:hover,.date-input:hover {
+    border-color: blue; /* Change border color to blue on hover */
+  }
+  
+  .add-jobs-select-container {
+    margin-bottom: 10px;
+  }
+  
+ 
+  
+  .add-jobs-label-container {
+    margin-bottom: 10px;
+  }
+  
+  .add-jobs-label-container label {
+    display: block;
+    margin-bottom: 5px; 
+    font-size: 14px;
+  }
+  .add-jobs-select-dropdown{
+    width: 100%;
+  }
+  .vl {
+    border-left: 1px solid gray;
+    height: auto;
+    /* margin-left: 52%; */
+  }
+  
+  
+  
+  .add-jobs-react-switch {
+    vertical-align: middle;
+   
+  }
+  
+  .add-jobs-switch-label {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  .add-jobs-switch-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .date-picker-input {
+    width: 155%;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  .date-picker-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+ 
+ .add-jobs-container {
+  height: 80vh;
+  overflow-y: auto;
+ }
+ .add-jobs-container ::-webkit-scrollbar{
+  display : "none";
+ }

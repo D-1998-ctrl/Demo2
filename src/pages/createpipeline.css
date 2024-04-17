@@ -1,0 +1,144 @@
+
+/* CreatePipeline.css */
+.form-area{
+    display: flex;
+  }
+  .create-pipeline-container {
+    margin: 10px;
+    overflow-y: auto;
+    height: 80vh;
+  }
+  
+  .pipeline-heading {
+    font-size: 45px;
+  }
+  
+  .pipelines-form {
+    margin-top: 20px;
+  }
+  
+  .form-header {
+    margin-top: 0px;
+  }
+  
+  .form-header h3 {
+    margin: 0;
+  }
+  
+  .form-header hr {
+    margin-top: 20px;
+  }
+  
+  .create-form {
+    margin: 10px;
+  }
+  
+  .pipeline-input {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 100%;
+    transition: border-color 0.3s; /* Add transition for smoother effect */
+  }
+  .day-input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    /* width: 100%; */
+    transition: border-color 0.3s;
+  }
+  
+  .pipeline-input:hover,.day-input:hover {
+    border-color: blue; /* Change border color to blue on hover */
+  }
+  
+  .select-container {
+    margin-bottom: 10px;
+  }
+  
+  .select-dropdown {
+    width: 100%;
+  }
+  
+  .label-container {
+    margin-bottom: 10px;
+  }
+  
+  .label-container label {
+    display: block;
+    margin-bottom: 5px; 
+    font-size: 14px;
+  }
+  
+  .vl {
+    border-left: 1px solid gray;
+    height: 500px;
+    /* margin-left: 52%; */
+  }
+  
+  
+  .job-cards-fields{
+   margin-top: 20px;
+  }
+  .job-cards-lists{
+    display: flex;
+    gap: 10px ;
+    justify-content:space-between; 
+    margin-top:10px;
+  }
+  
+  .react-switch {
+    vertical-align: middle;
+   
+  }
+  
+  .switch-label {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  .switch-container {
+    display: flex;
+    align-items: center;
+    margin-right: 9px;
+    margin-bottom: 15px;
+  }
+  .create-stages hr{
+    margin-top: 20px;
+  }
+  /* Add these styles to your CSS file */
+  .date-picker-input {
+    width: 155%;
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .date-picker-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  .input-icon {
+    position: relative;
+  }
+  
+  .input-icon input {
+    padding-left: 30px; /* Adjust as per icon size */
+    background-color: var(--body-color);
+  }
+  
+  .input-icon .edit-icon{
+    position: absolute;
+    left: 50%; /* Adjust as per your preference */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .add-stage-btn button{
+    background-color: var(--body-color);
+    border-radius: 10px;
+    border: 1px solid gray;
+  }

@@ -1,0 +1,413 @@
+/* //todo==============================case1================= */
+.case1 {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f4f4f4; */
+}
+.case1 .container {
+  width: 500px;
+  padding: 20px;
+  /* background-color: #fff; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 30px;
+  text-align: center;
+}
+
+.case1 label {
+  position: relative;
+  display: block;
+  text-align: left;
+  font-size: small;
+  font-weight: 500;
+  color: gray;
+}
+
+.case1 input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+
+.case1 button {
+  /* background-color: #4caf50; */
+  background-color: rgb(86, 155, 235);
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.case1 button:hover {
+  background-color: rgb(9, 102, 208);
+}
+/* //todo==============================case2================= */
+.case2 {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f4f4f4; */
+}
+.case2 .container {
+  width: 500px;
+  padding: 20px;
+  /* background-color: #fff; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 30px;
+  text-align: center;
+}
+
+.case2 button {
+  /* background-color: #4caf50; */
+  background-color: rgb(86, 155, 235);
+  color: #fff;
+  padding: 1px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.case2 button:hover {
+  background-color: rgb(9, 102, 208);
+}
+@media screen and (max-width: 480px) {
+  .case2 .container {
+    width: 400px;
+    padding: 20px;
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 30px;
+    text-align: center;
+  }
+}
+/* //todo==============================case3================= */
+.case3 {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f4f4f4; */
+}
+.case3 .container {
+  width: 500px;
+  padding: 20px;
+  /* background-color: #fff; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 30px;
+  text-align: center;
+}
+.case3 label {
+  position: relative;
+  display: block;
+  text-align: left;
+  font-size: small;
+  font-weight: 500;
+  color: gray;
+}
+.case3 input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.case3 button {
+  /* background-color: #4caf50; */
+  background-color: rgb(86, 155, 235);
+  color: #fff;
+  padding: 1px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.case3 button:hover {
+  background-color: rgb(9, 102, 208);
+}
+@media screen and (max-width: 480px) {
+  .case3 .container {
+    width: 400px;
+    padding: 20px;
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 30px;
+    text-align: center;
+  }
+}
+
+/* //todo==============================case4================= */
+.case4 {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f4f4f4; */
+}
+.case4 .container {
+  width: 500px;
+  padding: 20px;
+  /* background-color: #fff; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 30px;
+  text-align: center;
+}
+.case4 label {
+  position: relative;
+  display: block;
+  text-align: left;
+  font-size: small;
+  font-weight: 500;
+  color: gray;
+}
+.case4 input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.case4 select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.case4 button {
+  /* background-color: #4caf50; */
+  background-color: rgb(86, 155, 235);
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  margin: 20px;
+}
+.case4 button:hover {
+  background-color: rgb(9, 102, 208);
+}
+@media screen and (max-width: 480px) {
+  .case4 .container {
+    width: 400px;
+    padding: 20px;
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 30px;
+    text-align: center;
+  }
+}
+
+/* //todo==============================case5================= */
+.case5 {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  /* display: flex; */
+  /* justify-content: left;  */
+
+  /* height: 100vh; */
+  /* background-color: #f4f4f4; */
+}
+/* .case5 .container {
+  /* width: 60%; */
+  /* padding: 10px; */
+  /* background-color: #fff; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  /* border-radius: 30px; */
+  /* text-align: left; */
+
+
+.case5 button {
+  /* background-color: #4caf50; */
+  background-color: rgb(86, 155, 235);
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  margin: 20px;
+}
+.case5 button:hover {
+  background-color: rgb(9, 102, 208);
+}
+
+/* ToggleButton.css */
+.case5 .toggle-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.case5 .toggle-button.active {
+  /* background-color: #2ecc71; */
+  background-color: #043a77;
+}
+.case5 .selectbar {
+  width: 800px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.case5 .selection {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .case5 .selectbar {
+    width: 360px;
+    margin-left: 15px;
+  }
+  .case5 .selection {
+    margin-top: 30px;
+  }
+}
+
+/* //todo==============================case6================= */
+.case6 {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: left;
+
+  /* background-color: #f4f4f4; */
+}
+.case6 .container {
+  width: 1200px;
+  padding: 40px;
+  /* background-color: #fff; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 30px;
+  text-align: left;
+}
+
+.case6 button {
+  /* background-color: #4caf50; */
+  background-color: rgb(86, 155, 235);
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 12px;
+  margin: 20px;
+}
+.case6 button:hover {
+  background-color: rgb(9, 102, 208);
+}
+@media screen and (max-width: 480px) {
+  .case4 .container {
+    width: 400px;
+    padding: 20px;
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 30px;
+    text-align: center;
+  }
+}
+
+/* //todo==============================case4================= */
+.case8 {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f4f4f4; */
+}
+.case8 .container {
+  width: 500px;
+  padding: 20px;
+  /* background-color: #fff; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 30px;
+  text-align: left;
+}
+.case8 label {
+  position: relative;
+  display: block;
+  text-align: left;
+  font-size: small;
+  font-weight: 500;
+  color: gray;
+}
+.case8 input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.case8 select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.case8 button {
+  /* background-color: #4caf50; */
+  background-color: rgb(86, 155, 235);
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  margin: 20px;
+}
+.case8 button:hover {
+  background-color: rgb(9, 102, 208);
+}
+@media screen and (max-width: 480px) {
+  .case8 .container {
+    width: 400px;
+    padding: 20px;
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 30px;
+    text-align: center;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+  .message {
+
+    justify-content: center;
+    margin-left: 5%;
+  }
+
+  .message p {
+
+    font-size: 14px;
+    width: 300px;
+  }
+}

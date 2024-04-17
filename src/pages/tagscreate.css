@@ -1,0 +1,118 @@
+.input-with-color-dropdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: relative;
+  padding: 20px;
+}
+
+.input-field {
+  width: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.select-dropdown {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.submit-button,
+.clear-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .input-with-color-dropdown-container {
+    flex-direction: row;
+    justify-content: relative;
+    align-items: relative;
+    border-radius: 10px;
+  }
+
+  .input-field,
+  .select-dropdown {
+    width: auto;
+    margin-right: 10px;
+  }
+}
+
+
+.create-tag-options {
+  position: absolute;
+  
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px #4f546733;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  z-index: 1;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.create-tag-options span {
+  display: block;
+  cursor: pointer;
+  margin-bottom: 15px;
+  color: #0f172a;
+  background: #FFF;
+  position: relative;
+}
+
+.tag-form-container{
+  position: fixed;
+  top: 0;
+  right: -500px;
+  width: 500px;
+  height: 100vh;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  overflow-y: auto;
+  transition: right 0.3s ease-in-out;
+  z-index: 99;
+  border-radius: 15px 0;
+  
+}
+
+.tag-form-open{
+  right: 0;
+}
+.tag-form-container .edit-tag-header{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  /* border-bottom: 1px solid black; */
+}
+.tag-btns{
+  display: flex;
+  gap:20px;
+  padding: 20px;
+}
+.tag-form-area{
+  display: flex;
+  padding: 20px;
+}
+.tag-select-container {
+  margin-bottom: 10px;
+}
+
+.select-dropdown {
+  width: 100%;
+}
+
+.tag-label-container{
+  margin-bottom: 10px;
+}
+
+.tag-label-container label {
+  display: block;
+  margin-bottom: 5px; 
+  font-size: 14px;
+}

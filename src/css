@@ -1,0 +1,6 @@
+.aicon {
+  color: #ececf2;
+  margin-left: 10px;
+  background-color: #695cfe; /*#9fdfe8;*/
+  border-radius: 50%;
+}

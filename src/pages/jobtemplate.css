@@ -1,0 +1,141 @@
+
+.job-template-form-area{
+    display: flex;
+  }
+  
+  
+  .job-template-create-form {
+    margin: 10px;
+
+  }
+  
+  .container{
+    text-align: left;
+    /* margin-top: 80px; */
+    margin-left: 15px;
+    width: auto;
+    
+ 
+  }
+
+  .job-input {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 100%;
+    transition: border-color 0.3s; /* Add transition for smoother effect */
+  }
+  .date-input{
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 10px;
+    transition: border-color 0.3s;
+  }
+  .day-input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    /* width: 100%; */
+    transition: border-color 0.3s;
+  }
+  
+  .job-input:hover,.date-input:hover {
+    border-color: blue; /* Change border color to blue on hover */
+  }
+  
+  .job-template-select-container {
+    margin-bottom: 10px;
+  }
+  
+ 
+  
+  .job-template-label-container {
+    margin-bottom: 10px;
+  }
+  
+  .job-template-label-container label {
+    display: block;
+    margin-bottom: 5px; 
+    font-size: 14px;
+  }
+  .job-template-select-dropdown{
+    width: 100%;
+  }
+  .vl {
+    border-left: 1px solid gray;
+    height: auto;
+    /* margin-left: 52%; */
+  }
+  
+  
+  
+  .job-template-react-switch {
+    vertical-align: middle;
+   
+  }
+  
+  .job-template-switch-label {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  .job-template-switch-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .date-picker-input {
+    width: 155%;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  .date-picker-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+ 
+
+   .menu-options {
+    position: absolute;
+    top: 0;
+    /* right: 0; */
+    margin-left: 20px;
+    background:#fff;
+   /* padding: 5px; */
+    z-index: 1; 
+    box-shadow: 2px 1px hsl(0, 5%, 92%);
+ 
+    font-size: 12px;
+    padding: 8px;
+ 
+  }
+  
+  .menu-options div {
+    cursor: pointer
+  }
+  
+  .list-container tr {
+    position: relative;
+  }
+  .list-container  {
+   width: 1000px;
+  }
+  
+   /* .job-template-container{
+    height: 80vh;
+    overflow-y: auto;
+   } */
+   .job-temp-container::-webkit-scrollbar{
+    display: none;
+   }
+   
+  
+  

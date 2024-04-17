@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("../navbar/common.css");
+
+.tag-container {
+  text-align: center;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.tag-button .create-tagbtn {
+  float: right;
+  padding: 8px;
+  background: blue;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.create-tagbtn:hover {
+  background: rgb(9, 9, 144);
+}
+.addnewtag {
+  padding: 9px;
+  border-color: blue;
+  border-radius: 10px;
+  font-size: 18px;
+  color: blue;
+  background: var(--body-color);
+  cursor: pointer;
+}
+
+/* tag sidebar from right */
+.create-tag {
+  position: absolute;
+  top: 0;
+  right: -66.66%;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  transition: right 0.5s ease-in-out;
+}
+.tag-open {
+  right: 0;
+}
+.create-tag .tag_header_title {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(243, 243, 243);
+  padding: 15px;
+}
+.tag-input .tag-input-box {
+  height: 40px;
+  padding: 8px;
+  border: 2px solid gray;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.tag-input .tag-input-box:hover {
+  border: 2px solid blue;
+}
+.tag-buttons .save-btn button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: blue;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+.tag-buttons .save-btn button:hover {
+  background: rgb(9, 9, 144);
+}
+.tag-buttons .cancle-btn button {
+  padding: 8px;
+  border-radius: 10px;
+  border: 2px solid blue;
+  font-size: 15px;
+  color: blue;
+  background: none;
+  cursor: pointer;
+}
