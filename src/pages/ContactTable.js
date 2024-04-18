@@ -30,7 +30,7 @@ const AccountsData = () => {
   }, []);
 
   // Constants for pagination
-  const itemsPerPage = 3;
+  const itemsPerPage = 7;
   const totalPages = contacts ? Math.ceil(contacts.length / itemsPerPage) : 0;
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = Math.min(startIndex + itemsPerPage, contacts.length);
@@ -106,7 +106,8 @@ const AccountsData = () => {
   const filteredContacts = contacts.filter(contact =>
     (contact.Name && contact.Name.toLowerCase().includes(filter.toLowerCase())) ||
     (contact.Email && contact.Email.toLowerCase().includes(filter.toLowerCase())) ||
-    (contact.phoneNumber && contact.phoneNumber.some(number => number.phoneNumber && number.phoneNumber.toLowerCase().includes(filter.toLowerCase()))) ||
+    (contact.phoneNumber && contact.phoneNumber.some(number => number.value && number.value.toLowerCase().includes(filter.toLowerCase())))
+    // (contact.phoneNumber && contact.phoneNumber.some(number => number.phoneNumber && number.phoneNumber.toLowerCase().includes(filter.toLowerCase()))) ||
     (contact.companyName && contact.companyName.toLowerCase().includes(filter.toLowerCase())) ||
     (contact.Tags && contact.Tags.some(tagArray => tagArray.some(tag => tag.tagName && tag.tagName.toLowerCase().includes(filter.toLowerCase()))))
   );

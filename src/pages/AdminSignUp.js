@@ -742,8 +742,8 @@ const SignUp = ({ handleSignupPage }) => {
                 <img style={{ width: "30px" }} src={logo} alt="" />
                 <b>PMS Solutions</b>
               </div>
-              <div className="col-12 case1">
-                <div className="container">
+              <div className="col-12 case1" >
+                <div className="container"style={{ margin:'0 auto'}} >
                   <h2 style={{ color: "black" }}>Signup</h2>
                   <p className="subtitle">Sign up your firm and start upgrading your workflow</p>
                   <br />
@@ -800,7 +800,7 @@ const SignUp = ({ handleSignupPage }) => {
                 </div>
               </div>
               <div className=" col-12 case2">
-                <div className="container">
+                <div className="container" style={{ margin:'0 auto'}}>
                   <h2>Confirmation Code</h2>
                   <p>We sent a confirmation code to your email:</p>
                   <div>
@@ -883,7 +883,7 @@ const SignUp = ({ handleSignupPage }) => {
             </div>
 
             <div className=" col-12 case3">
-              <div className="container">
+              <div className="container"style={{ margin:'0 auto'}}>
                 <h2>Your Information</h2>
                 <form>
                   <div>
@@ -953,7 +953,7 @@ const SignUp = ({ handleSignupPage }) => {
               </div>
             </div>
             <div className=" col-12 case4">
-              <div className="container">
+              <div className="container"style={{ margin:'0 auto'}}>
                 <h2 style={{ marginBottom: "20px" }}>Firm Information</h2>
                 <form>
                   <label>Firm Name</label>
@@ -1079,7 +1079,7 @@ const SignUp = ({ handleSignupPage }) => {
             <div className="col-12"></div>
 
             <div className=" col-12 case6">
-              <div className="container" style={{ padding: "6%" }}>
+              <div className="container" style={{ padding: "6%",margin:'0 auto' }}>
                 <button onClick={() => handleButtonClick2("TaxPreparation")} style={{ backgroundColor: buttonStates2.TaxPreparation ? "#043a77" : "#3498db" }}>
                   Tax Prepration
                 </button>

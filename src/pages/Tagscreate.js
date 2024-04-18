@@ -30,8 +30,10 @@ const Tagcreate = () => {
     return Math.min(textWidth, 200);
   };
 
-const [tagid,settagidData]=useState();
+  const [tagid, settagidData] = useState();
   const handleEdit = async (_id) => {
+
+    setGetId(_id)
 
     setOpenMenuId(false)
     setIsTagFormOpen(!isTagFormOpen);
@@ -42,14 +44,15 @@ const [tagid,settagidData]=useState();
       throw new Error('Failed to fetch job data');
     }
     const data = await response.json();
-           settagidData(data.tag)
-       setInputValue(data.tag.tagName)
-  
+    settagidData(data.tag)
+    setInputValue(data.tag.tagName)
 
+    const newOptions = generateOptions(data.tag.tagName);
+    setOptions(newOptions);
 
 
     if (tagid && tagid) {
-   
+
       const tags = tagid.map(tag => ({
         value: tag._id,
         label: tag.tagName,
@@ -146,6 +149,7 @@ const [tagid,settagidData]=useState();
     fetch("http://127.0.0.1:8080/common/tag/", requestOptions)
       .then((response) => response.text())
       .then((result) => console.log(result))
+      toast.success("Tag data sent successfully!");
     window.location.reload()
       .catch((error) => console.error(error));
   };
@@ -176,7 +180,7 @@ const [tagid,settagidData]=useState();
   //
 
 
-const [getId,setGetId]=useState("");
+  const [getId, setGetId] = useState("");
   //delete template
   const handleDelete = (_id) => {
 
@@ -266,8 +270,9 @@ const [getId,setGetId]=useState("");
       })
       .then((result) => {
         // Assuming you have a function to show a toast notification
-
         console.log(result);
+        toast.success('Tag Updated successfully');
+        
         window.location.reload();
       })
       .catch((error) => {

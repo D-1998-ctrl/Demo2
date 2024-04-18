@@ -406,7 +406,7 @@ const EmailTempsend = () => {
 
 
   return (
-    <div className='from' style={{ padding: "50px" }}>
+    <div  className='from' style={{ padding: "50px" }}>
       <div className="form__row">
         <div className="form_col form_col_100">
           <div className="_select_5n3c2_115">
